@@ -104,8 +104,9 @@ The following is the roadmap from start to completion of the project:
 
 ## Further Possible Implementations
 - Night mode.
-- Percentage operator
+- Percentage operator.
 - Switch between + and - operators.
+- Continuous integration.
 
 ## Conclusion
 
