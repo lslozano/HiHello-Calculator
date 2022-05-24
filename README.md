@@ -82,7 +82,7 @@ The following is the roadmap from start to completion of the project:
 
 12.- Upload everything to github
 
-13.- Deploy and set continuos deploy option on
+13.- Deploy and set continuos integration option on
 
 ## Project composition
 |Folder/File  |Description                         |
