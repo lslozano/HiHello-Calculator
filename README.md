@@ -1,46 +1,116 @@
-# Getting Started with Create React App
+# HiHello Calculator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a calculator that can do all the basic functionalities such as basic operations, clear memory and delete user inputs.
 
-## Available Scripts
+### Technologies used
+- JavaScript
+- React
+- Typescript
+- HTML
+- CSS
+- Styled Components
+- Netflify
 
-In the project directory, you can run:
+# Installation
+1.- Clone or download the repository.
 
-### `npm start`
+2.- Open the files in your selected editor.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+3.- In terminal, position yourself at the root folder of the project.
+```javascript
+cd project
+```
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+4.- Run npm install to install all the needed dependencies.
+```javascript
+$project npm install
+```
 
-### `npm test`
+5.- After installation is complete, execute the command npm start.
+```javascript
+$project npm start
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+6.- Head to the URL that appears in your terminal to head to the running project.
 
-### `npm run build`
+# Commands and sources for the dependencies used
+If you would like to start the project on your own or install the specific dependencies one by one, here they are:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Create React App with Typescript flag
+```javascript
+npx create-react-app calculator --template typescript
+```
+Source: [https://create-react-app.dev/docs/adding-typescript/](https://create-react-app.dev/docs/adding-typescript/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Styled Components
+```javascript
+npm install styled-components
+```
+Source: [https://styled-components.com/docs/basics#installation](https://styled-components.com/docs/basics#installation)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Typescript definitions for Styled Components
+```javascript
+npm install @types/styled-components
+```
+Source: [https://www.npmjs.com/package/@types/styled-components](https://www.npmjs.com/package/@types/styled-components)
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Roadmap
+The following is the roadmap from start to completion of the project:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1.- Create the starter template.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+2.- Install all of the dependencies needed.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+3.- Delete unnecessary code.
 
-## Learn More
+4.- Create notes about what was needed, functionality, requirements, and components.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+5.- Create basic layout.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+6.- Add styles
+
+7.- Create different folders in order to modularize and separate concerns.
+
+8.- Start work on funcitonality
+
+9.- Test
+
+10.- Refactor
+
+11.- Create READme
+
+12.- Upload everything to github
+
+13.- Deploy and set continuos integration option on
+
+## Project composition
+|Folder/File  |Description                         |
+|----------------|-------------------------------|
+|src|Contains everything|
+|components       |All the components to render the site|
+|helpers      |Types, interfaces, and extra functions|
+|App       |Where everything comes together|
+|breakpoints       |Breakpoints used to establish responsive styles|
+|colors       |Object that includes colors for palette used in the site|
+|index.csss      |Global styles|
+|index.js     |Root of project|
+
+## Components composition
+|File  |Description                         |
+|----------------|-------------------------------|
+|index|Contains logic|
+|styles         |Styles for the component    |
+
+## Further Possible Implementations
+- Night mode.
+- Percentage operator
+- Switch between + and - operators.
+
+## Conclusion
+
+This was a very interesting exercise, that presented it's respective challenges.
+If you have any inquiry, please feel free to get in touch via [linkedin](https://linkedin.com/in/lslozano).
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
