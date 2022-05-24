@@ -7,10 +7,11 @@ export const Container = styled.div`
   flex-direction: column;
   padding-block-end: 18px;
   width: 100%;
-  max-width: 320px;
+  max-width: 350px;
 
   ${breakPoints.desktop} {
-    padding-inline-end: 20px;
+    padding-block-end: 0;
+    padding-inline-end: 25px;
   }
 `;
 
